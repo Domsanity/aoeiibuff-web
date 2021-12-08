@@ -1,0 +1,248 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+#main-header{
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+#main-header a{
+    color: gold;
+    text-decoration: none;
+}
+
+#page-header a{
+    font-size: 25px;
+}
+
+#page-login{
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+#main-navbar{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+#main-navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main-navbar li{
+    display: inline;
+}
+
+#main-navbar a{
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+#main-home{
+    display: flex;
+    box-sizing: border-box;
+    width: 99%;
+}
+
+#news-pannel{
+    padding-left: 50px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+#news-header h1{
+    color: purple;
+}
+
+.news-title a{
+    color: red;
+    text-decoration: none;
+}
+
+#news-image img{
+    width: 100%;
+}
+
+.news-author{
+    text-align: right;
+}
+
+.news-author a{
+    color: seagreen;
+    text-decoration: none;
+}
+
+#guide-pannel{
+    padding-left: 50px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+#guide-header{
+    color: teal;
+}
+
+.guide-title a{
+    color: olive;
+    text-decoration: none;
+}
+
+#guide-image img{
+    width: 100%;
+}
+
+.guide-author{
+    text-align: right;
+}
+
+.guide-author a{
+    color: tomato;
+    text-decoration: none;
+}
+
+#main-footer{
+    background-color: black;
+    color: green;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+/* login */
+
+#login-form{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+#login-form input[type="text"]{
+    padding: 5px;
+    width:100%;
+    box-sizing: border-box;
+}
+
+#login-img img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+}
+
+.button1{
+    width: 100%;
+    padding: 8px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    box-sizing: border-box;
+}
+
+.button2{
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.forgotpass{
+    float: right;
+    box-sizing: border-box;
+}
+
+/* News */
+
+#main-newspage{
+    width: 60%;
+    padding-left: 50px;
+}
+
+.news-image img{
+    width: 350px;
+}
+
+.news-item{
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.news-author{
+    text-align: right;
+}
+
+.news-details{
+    padding-left: 15px;
+}
+
+.news-title{
+    color: tomato
+}
+
+.news-author{
+    color:chartreuse
+}
+
+/* Guide */
+
+#main-guidepage{
+    width: 60%;
+    padding-left: 50px;
+}
+
+.guide-image img{
+    width: 350px;
+}
+
+.guide-item{
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.guide-author{
+    text-align: right;
+}
+
+.guide-details{
+    padding-left: 15px;
+}
+
+.guide-title{
+    color: olive
+}
+
+.guide-author{
+    color:tomato
+}
+
+/* About */
+
+#main-about{
+    padding-top: 25px;
+    margin: auto;
+    width: 80%;
+    box-sizing: border-box;
+}
