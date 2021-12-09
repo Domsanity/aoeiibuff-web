@@ -63,58 +63,58 @@ body{
     width: 99%;
 }
 
-#news-pannel{
+#home-news-pannel{
     padding-left: 50px;
     width: 90%;
     box-sizing: border-box;
 }
 
-#news-header h1{
+#home-news-header h1{
     color: purple;
 }
 
-.news-title a{
+#home-news-title a{
     color: red;
     text-decoration: none;
 }
 
-#news-image img{
+#home-news-image img{
     width: 100%;
 }
 
-.news-author{
+#home-news-author{
     text-align: right;
 }
 
-.news-author a{
+#home-news-author a{
     color: seagreen;
     text-decoration: none;
 }
 
-#guide-pannel{
+#home-guide-pannel{
     padding-left: 50px;
     width: 90%;
     box-sizing: border-box;
 }
 
-#guide-header{
+#home-guide-header{
     color: teal;
 }
 
-.guide-title a{
+#home-guide-title a{
     color: olive;
     text-decoration: none;
 }
 
-#guide-image img{
+#home-guide-image img{
     width: 100%;
 }
 
-.guide-author{
+#home-guide-author{
     text-align: right;
 }
 
-.guide-author a{
+#home-guide-author a{
     color: tomato;
     text-decoration: none;
 }
@@ -181,29 +181,39 @@ body{
     padding-left: 50px;
 }
 
-.news-image img{
+#main-news-header h1{
+    color: purple;
+}
+
+#main-news-image img{
     width: 350px;
 }
 
-.news-item{
+#main-news-item{
     display: flex;
     padding-bottom: 15px;
 }
 
-.news-author{
+#main-news-author{
     text-align: right;
 }
 
-.news-details{
+#main-news-details{
     padding-left: 15px;
 }
 
-.news-title{
-    color: tomato
+#main-news-title a{
+    color: red;
+    text-decoration: none;
 }
 
-.news-author{
-    color:chartreuse
+#main-news-author{
+    color:seagreen;
+}
+
+#main-news-author a{
+    color: seagreen;
+    text-decoration: none;
 }
 
 /* Guide */
@@ -213,29 +223,39 @@ body{
     padding-left: 50px;
 }
 
-.guide-image img{
+#main-guide-header{
+    color: teal;
+}
+
+#main-guide-image img{
     width: 350px;
 }
 
-.guide-item{
+#main-guide-item{
     display: flex;
     padding-bottom: 15px;
 }
 
-.guide-author{
+#main-guide-author{
     text-align: right;
 }
 
-.guide-details{
+#main-guide-details{
     padding-left: 15px;
 }
 
-.guide-title{
-    color: olive
+#main-guide-title a{
+    color: olive;
+    text-decoration: none;
 }
 
-.guide-author{
-    color:tomato
+#main-guide-author{
+    color:tomato;
+}
+
+#main-guide-author a{
+    color: tomato;
+    text-decoration: none;
 }
 
 /* About */
@@ -243,6 +263,10 @@ body{
 #main-about{
     padding-top: 25px;
     margin: auto;
-    width: 80%;
+    width: 60%;
     box-sizing: border-box;
+}
+
+#about-header{
+    color: magenta;
 }
