@@ -319,3 +319,40 @@ box-sizing: border-box;
 #about-header{
     color: magenta;
 }
+
+/* Reset */
+
+#reset-form{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+#reset-header{
+    color: magenta;
+    box-sizing: border-box;
+}
+
+#reset-forgot{
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+#reset-form input[type="text"]{
+    padding: 5px;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.button4{
+    width: 100%;
+    padding: 8px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    box-sizing: border-box;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
